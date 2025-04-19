@@ -1,0 +1,31 @@
+root: MySQL username.
+
+password: MySQL password.
+
+localhost: Host where your MySQL database is running.
+
+3306: Default MySQL port.
+
+database: The name of the database.
+
+
+
+# for setup environment variables PORT
+$env:PORT = 3000
+uvicorn main:app --reload --port $env:PORT
+
+
+python/py -m pip install --upgrade pip
+python/py -m venv venv
+
+ctrl + shift + p --> select interpreter with venv
+
+./venv/Scripts/activate
+
+python/py -m pip install mysql-connector-python
+python/py -m pip install dotenv
+python/py -m pip install fastapi
+python/py -m pip install uvicorn
+
+
+
