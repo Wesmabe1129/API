@@ -11,6 +11,7 @@ from utils.hash import encrypt_password
 
 
 
+
 # conn = create_connection()
 
 # cursor = conn.cursor(dictionary=True)
@@ -40,10 +41,6 @@ class User:
     
     @staticmethod
     def create(username, email, password):
-        username = username
-        email = email
-        password = password
-
         
         try:
             if not username or not email or not password:
@@ -59,8 +56,6 @@ class User:
 
             user = cur.fetchone()
 
-            cur.close()
-            db.close()
 
             return {
                 "Response": "True",
@@ -86,17 +81,42 @@ class User:
             }
 
         
-        # try:
-        #     if not self.username or not self.email or not self.password:
-        #         return None
-            
-        #     self.result = self.cursor.execute("INSERT INTO user(username, password, first_name, last_name) VALUES (%s, %s, %s, %s)",
-        #                                             [self.username, encrypt_password(self.password), "wilson", "esmabe"])
-            
-        #     return self.result
+        
 
-        # except Exception as e:
-        #     print(f"Error: {e}")
+    
+
+    @staticmethod
+    def getUserProfileByID(user_id: int):
+
+        
+
+        try:
+            if not user_id:
+                return {
+                    "Response": "False",
+                    "message": "No user found!"
+                }
+            
+            db = create_connection()
+            cur = db.cursor(dictionary=True)
+
+            cur.execute("SELECT * FROM user")
+
+            user = cur.fetchone()
+            return {
+                "Response": "True",
+                "data": {
+                    "id": user["id"],
+                    "username": user["username"]
+                }
+            }
+
+        except Exception as e:
+            return {
+                "Response": False,
+                "Error": e
+            }
+
     
 
     

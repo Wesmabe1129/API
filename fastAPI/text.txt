@@ -10,13 +10,10 @@ database: The name of the database.
 
 
 
-# for setup environment variables PORT
-$env:PORT = 3000
-uvicorn main:app --reload --port $env:PORT
 
 
-python/py -m pip install --upgrade pip
-python/py -m venv venv
+python3/py -m pip install --upgrade pip
+python3/py -m venv venv
 
 ctrl + shift + p --> select interpreter with venv
 
@@ -29,3 +26,11 @@ python/py -m pip install uvicorn
 
 
 
+# SETUP ENV VARIABLE to Console before run
+# FOR Powershell
+$env:PORT=3000
+uvicorn main:app --reload --port $env:PORT
+
+# FOR WSL LINUX
+export PORT=3000
+uvicorn main:app --reload --port $PORT
