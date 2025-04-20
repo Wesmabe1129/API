@@ -9,6 +9,6 @@ from homeRoutes import homeRouter
 
 v1 = APIRouter()
 
-v1.include_router(router=accountRouter, prefix="/account", tags=["DB Connection"])
+v1.include_router(router=accountRouter, prefix="/account", tags=["ACCOUNT ROUTES"])
 
 v1.include_router(router=homeRouter, prefix="", tags=["HOME"])

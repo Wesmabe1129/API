@@ -20,9 +20,16 @@ ctrl + shift + p --> select interpreter with venv
 ./venv/Scripts/activate
 
 python/py -m pip install mysql-connector-python
-python/py -m pip install dotenv
+python/py -m pip install python-dotenv
+
+# FOR Lightweight Setup of JasonWebToken
+python/py -m pip install PyJWT
+# FOR Extended Support of JasonWebToken (optional)
+python/py -m pip install python-jose[cryptography]
+
 python/py -m pip install fastapi
 python/py -m pip install uvicorn
+
 
 
 
