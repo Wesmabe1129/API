@@ -32,13 +32,13 @@ class User:
     
     def create(self, username: str, email: str, password: str, balance: float, fullname: str):
         """
-            Create a new user account.
+            Create a new user account. ✨
             
-            - **username**: unique username
-            - **email**: unique email
-            - **password**: raw password
-            - **balance**: balance
-            - **fullname**: user's full name
+            - **username**: unique username 🌝
+            - **email**: unique email ✉️
+            - **password**: raw password 🔑
+            - **balance**: balance 💸
+            - **fullname**: user's full name 💯
         """
         try:
             db = create_connection()
@@ -100,10 +100,10 @@ class User:
     
     def verify(self, username: str, password: str):
         """
-            Verify user credentials.
+            Verify user credentials. 🚦✨
             
-            - **username**: unique username
-            - **password**: raw password
+            - **username**: unique username 🌝
+            - **password**: raw password 🔑
         """
         try:
             db = create_connection()
@@ -126,9 +126,9 @@ class User:
 
     def getUserProfileByID(self, user_id: int):
         """
-            Get *user* By user_id.
+            Get *user* By user_id. 🥴
             
-            - **user_id**: user's ID
+            - **user_id**: user's ID 🪪
         """
         
 

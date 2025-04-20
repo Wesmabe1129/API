@@ -26,7 +26,7 @@ class AccountController:
 
 
         return {
-            "message": "Successfully Created account",
+            "message": "Successfully Created account 🟢",
             "data": {
                 "recordIndex": result["insertId"]
             }
@@ -48,13 +48,13 @@ class AccountController:
         if not user["user_id"]:
             raise HTTPException(status_code=422, detail={
                 "success": False,
-                "message": "nvalid username or password"
+                "message": "Invalid username or password"
             })
 
 
         return {
             "success": True,
-            "message": "Successfully Login",
+            "message": "Successfully Login 🟢",
             "data": {
                 "user_id": user["user_id"],
                 "username": user["username"],
@@ -99,7 +99,7 @@ class AccountController:
         # print(user_info)
         
         return {
-            "message": "Get Profile",
+            "message": "Successfully Get user profile! 🟢",
             "data": {
                 "user_id": user_info['data']['user_id'],
                 "username": user_info['data']['username'],
