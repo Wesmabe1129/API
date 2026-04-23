@@ -1,0 +1,12 @@
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/bin/Debug/net8.0/BanKing.Domain.deps.json
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/bin/Debug/net8.0/BanKing.Domain.dll
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/bin/Debug/net8.0/BanKing.Domain.pdb
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.AssemblyInfoInputs.cache
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.AssemblyInfo.cs
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.csproj.CoreCompileInputs.cache
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.sourcelink.json
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.dll
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/refint/BanKing.Domain.dll
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/BanKing.Domain.pdb
+/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Domain/obj/Debug/net8.0/ref/BanKing.Domain.dll
