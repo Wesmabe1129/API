@@ -8,7 +8,6 @@
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/BanKing.Application.AssemblyInfoInputs.cache
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/BanKing.Application.AssemblyInfo.cs
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/BanKing.Application.csproj.CoreCompileInputs.cache
-/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/BanKing.Application.sourcelink.json
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/BanKing.Application.csproj.CopyComplete
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/BanKing.Application.dll
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Application/obj/Debug/net8.0/refint/BanKing.Application.dll

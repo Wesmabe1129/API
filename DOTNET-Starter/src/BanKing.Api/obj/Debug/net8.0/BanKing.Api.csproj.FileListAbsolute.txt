@@ -109,7 +109,6 @@
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/BanKing.Api.csproj.CoreCompileInputs.cache
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/BanKing.Api.MvcApplicationPartsAssemblyInfo.cs
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/BanKing.Api.MvcApplicationPartsAssemblyInfo.cache
-/home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/BanKing.Api.sourcelink.json
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/staticwebassets.build.json
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/staticwebassets.development.json
 /home/wesmabe1129/workspace/API/DOTNET-Starter/src/BanKing.Api/obj/Debug/net8.0/staticwebassets/msbuild.BanKing.Api.Microsoft.AspNetCore.StaticWebAssets.props
